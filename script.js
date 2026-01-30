@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     panorama: "jedna.jpg",
                     hotSpots: [
                         { pitch: -2, yaw: 50, type: "scene", text: "Nádvoří", sceneId: "nadvoriR" },
-                        { pitch: -2, yaw: 320, type: "scene", text: "Pohled od Jizery", sceneId: "pohled_jizeraR" }
+                        { pitch: -2, yaw: 320, type: "scene", text: "Pohled od Jizery", sceneId: "pohled_mohelniceR" }
                     ]
                 },
                 nadvoriR: {
@@ -25,13 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     panorama: "dva.jpg",
                     hotSpots: [
                         { pitch: -3, yaw: 290, type: "scene", text: "Předhradí", sceneId: "zriceninaR" },
-                        { pitch: -2, yaw: 45, type: "scene", text: "Pohled z Mohelnice", sceneId: "pohled_mohelniceR" }
+                        { pitch: -2, yaw: 45, type: "scene", text: "Pohled z Mohelnice", sceneId: "pohled_jizeraR" }
                     ]
                 },
                 pohled_mohelniceR: {
                     title: "Pohled z Mohelnice",
                     type: "equirectangular",
-                    panorama: "tri.jpg",
+                    panorama: "ctyri.jpg",
                     hotSpots: [
                         { pitch: -2, yaw: 340, type: "scene", text: "Nádvoří", sceneId: "nadvoriR" },
                         { pitch: -2, yaw: 25, type: "scene", text: "Pohled od Jizery", sceneId: "pohled_jizeraR" }
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 pohled_jizeraR: {
                     title: "Pohled od Jizery",
                     type: "equirectangular",
-                    panorama: "ctyri.jpg",
+                    panorama: "tri.jpg",
                     hotSpots: [
                         { pitch: -3, yaw: 15, type: "scene", text: "Předhradí", sceneId: "zriceninaR" },
                         { pitch: -2, yaw: 300, type: "scene", text: "Pohled z Mohelnice", sceneId: "pohled_mohelniceR" }
@@ -101,3 +101,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
